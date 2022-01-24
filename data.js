@@ -13,7 +13,7 @@ const normalData = [{
     name: "Rupa Roy",
     titel: "Developer",
     image: "https://i.ibb.co/nwCKTCQ/Sweety.jpg",
-    gender: "Male",
+    gender: "Female",
     skill: ["JavaScripts", "Laravel"],
     facebook: "#",
     twitter: "#",
