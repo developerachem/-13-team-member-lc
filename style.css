@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    max-width: 1500px !important;
+}
+body{
+    background-image: linear-gradient(90deg , rgba(0, 0, 0, 0.39) , rgba(255, 0, 0, 0.363));
+}
+img{
+    max-width: 100%;
+}
+strong, label{
+    cursor: pointer;
+}
+#memberForm{
+    background-image: linear-gradient(90deg , rgba(39, 102, 185, 0.39) , rgba(35, 153, 114, 0.363));
+}
+.team{
+    background-image:  linear-gradient(90deg , rgba(47, 31, 59, 0.39) , rgba(42, 4, 212, 0.363));
+    padding: 10px 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-radius: 7px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 590px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.team .team-img{
+    width: 150px;
+    height: 150px ;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+.team h2{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.team p{
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(63, 48, 48);
+}
+small{
+    font-size: 17px;
+    font-weight: 500;
+}
+.list-group-item{
+    background-color: rgba(255, 255, 255, 0.308) !important;
+    text-align: left;
+    padding: 7px 20px;
+}
+
+.hr{
+    margin-bottom: 0;
+}
+.linkIcon {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	bottom: 4%;
+	left: 50%;
+	right: 50%;
+}
+.linkIcon li{
+
+}
+.linkIcon li a{
+    height: 33px ;
+    width: 33px;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.459);
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2px ;
+    transition: .5s;
+    color: rgb(39, 128, 98);
+}
+.linkIcon li a:hover{
+    transform: translateY(-10px);
+}
+
+.team .round {
+	height: 350px;
+	width: 350px;
+	background-color: rgba(255, 255, 255, 0.294);
+	position: absolute;
+	top: -28%;
+	transform: rotate(135deg);
+	border-radius: 127px;
+	z-index: -1;
+	left: 0%;
+}
